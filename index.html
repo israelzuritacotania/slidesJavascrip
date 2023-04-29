@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- Dentro de este div está todo el carrusel -->
+    <div class="contenedor-carrusel">
+
+        <div class="slide">
+            <img src="img/js1.jpg" class="fade-in">
+            <div class="texto">                
+                Este slide está hecho con HTML, CSS y JS
+            </div>
+        </div>
+        <div class="slide">
+            <img src="img/js2.jpg" class="fade-in">
+            <div class="texto">
+                JS es el único lenguaje que puede ejecutarse en un nevegador Web
+            </div>
+        </div>
+        <div class="slide">
+            <img src="img/js3.jpg" class="fade-in">
+            <div class="texto">
+                ECMAScript es el estándar que define las reglas de JS
+            </div>
+        </div>
+        <div class="slide">
+            <img src="img/js4.jpg" class="fade-in">
+            <div class="texto">
+                Todas las imágenes de este slide son libres de derechos
+            </div>
+        </div>
+
+
+        <!-- Botones de previo y siguiente -->
+        <a id="btn_previo">&#10094;</a>
+        <a id="btn_siguiente">&#10095;</a>
+    </div>
+
+    <!-- Circulos -->
+    <div id="div_circulos">
+        <span class="circulo"></span>
+        <span class="circulo"></span>
+        <span class="circulo"></span>
+        <span class="circulo"></span>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
